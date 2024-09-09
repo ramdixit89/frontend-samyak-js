@@ -65,14 +65,31 @@
 // }
 
 
-let studentName = "Ram";
-let studentRolllNo = 10;
-let stuPercentage = 40;
+// let studentName = "Ram";
+// let studentRolllNo = 10;
+// let stuPercentage = 86;
 
-if( stuPercentage < 33 ){
-    console.log("Fail");
-} else if( stuPercentage <= 60 && stuPercentage >= 33 ){
-   console.log("C Grade");
-} else if( stuPercentage < 75 && stuPercentage > 60 ){
-        
-}
+// if( stuPercentage < 33 ){
+//     console.log("Fail");
+// } else if( stuPercentage <= 60 && stuPercentage >= 33 ){
+//     console.log("Student detail is : ")
+//     console.table(studentRolllNo ,studentName, stuPercentage+".00%" );
+//     console.log("C Grade");
+// } else if( stuPercentage > 60  && stuPercentage <= 75){
+//     console.log("Student detail is : ")
+//     console.table(studentRolllNo ,studentName, stuPercentage+".00%" );
+//     console.log("B Grade");
+// } else if( stuPercentage > 75 && stuPercentage <= 85 ){
+//     console.log("Student detail is : ")
+//     console.table(studentRolllNo ,studentName, stuPercentage+".00%" );
+//    console.log("A Grade");
+// } else if( stuPercentage > 85 && stuPercentage <= 100 ){
+//     console.log("Student detail is : ")
+//     console.table(studentRolllNo ,studentName, stuPercentage+".00%" );
+//     console.log("A+ Grade");
+// } else {
+//     console.log("Absent");
+// }
+
+
+console.log(new Date().getDay()); //2 :
