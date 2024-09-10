@@ -92,4 +92,77 @@
 // }
 
 
-console.log(new Date().getDay()); //2 :
+// console.log(new Date().getDay()); //2 :
+
+// let percentage = 60;
+// //Conditional Statement
+// switch(percentage){
+//     // case, break, default
+
+//     case 60 : console.log("A Grade");
+//     break;
+
+//     case 55 : console.log("C Grade");
+//     break;
+
+//     default : console.log("Absent :");
+// }
+
+
+//January to December
+// let monthNumber = parseInt(prompt("Enter month :"));
+// let monthNumber = 5;
+
+// switch(monthNumber){
+//      case 1 : "January";
+//      break;
+//      case 2 : "February";
+//      break;
+//      case 3 : "March";
+//      break;
+//      case 4 : "April";
+//      break;
+//      case 5 : console.log("May");
+//      break;
+//      case 6 : "June";
+//      break;
+//      case 7 : "July";
+//      break;
+//      case 8 : "August";
+//      break;
+//      case 9 : "September";
+//      break;
+//      case 10 : "October";
+//      break;
+//      case 11 : "November";
+//      break;
+//      case 12 : console.log("December");
+//      break;
+//      default : console.log("Invalid month number");
+// }
+
+
+//Calculator using Switch case:
+let number1 = parseFloat(prompt("Enter number 1"));
+let number2 = parseFloat(prompt("Enter number 2"));
+let operator = prompt("Enter operator");
+
+switch(operator){
+    case "+" : console.log("Addition is : ", number1 + number2);
+    break;
+
+    case "-" : console.log("Substraction is : ", number1 - number2);
+    break;
+
+    case "*" : console.log("Multiplication is : ", number1 * number2);
+    break;
+
+    case "/" : console.log("Division is : ", number1 / number2);
+    break;
+
+    case "%" : console.log("Remainder is : ", number1 % number2);
+    break;
+
+    default : console.log("Invalid operator");
+}
+
