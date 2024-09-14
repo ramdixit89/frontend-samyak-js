@@ -1,0 +1,32 @@
+//1. Create Array
+// let car1 = "BMW";
+// console.log(car1);
+// let car2 = "Ford";
+// console.log(car2);
+
+// let car = [];  //Declaration
+// car = ["BMW", "FORD", "Shwift", "Volvo", "Thar", "Fortuner","Hyundai"]; //Initialization
+// console.log(car[0]); //Accesing array elements
+// console.log(car[1]);
+// console.log(car[2]);
+// console.log(car[3]);
+// console.log(car[4]);
+// console.log(car[5]);
+
+// for(let i = 0; i < car.length+1; i++){
+//    console.log(car[i]); //Accesing array elements
+// }
+
+// let car = ["Fortuner", 5000000, "MP09123", "White", true, null];
+// console.log(car);
+
+// const cars = [];
+// cars[0] = "BMW";
+// cars[1] = "Volvo";
+// cars[2] = "Fortuner";
+
+// console.log(cars);
+
+//2 : Type
+const car = new Array("BMW", "Fortuner", "Thar");
+console.log(car[2]);
