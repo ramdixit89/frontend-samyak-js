@@ -51,3 +51,17 @@ let vegiTables = ["Tomato", "Onion", "Potato"];
 // let myFreeze = fruits.concat(vegiTables);
 // console.log(myFreeze.push("ghjdhf"));
 // console.log(myFreeze);
+// console.log(fruits.copyWithin(2,0,0));
+// console.log(fruits);
+
+//Multidimensional
+//  let multi_d = [ [1,2,3], [4,5,6], [7,8,9] ];
+//  console.log(multi_d);
+// let one_d = multi_d.flat();
+// console.log(one_d);
+
+// let newArray = one_d.flatMap( a => console.log(a  * 2));
+
+const fruitsNew = ["Banana", "Orange", "Apple", "Mango", "Pinapple", "Cherry"];
+fruitsNew.splice(1, 5, "Lemon", "Kiwi");
+console.log(fruitsNew);
