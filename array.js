@@ -62,6 +62,16 @@ let vegiTables = ["Tomato", "Onion", "Potato"];
 
 // let newArray = one_d.flatMap( a => console.log(a  * 2));
 
-const fruitsNew = ["Banana", "Orange", "Apple", "Mango", "Pinapple", "Cherry"];
-fruitsNew.splice(1, 5, "Lemon", "Kiwi");
-console.log(fruitsNew);
+// const fruitsNew = ["Banana", "Orange", "Apple", "Mango", "Pinapple", "Cherry"];
+// fruitsNew.splice(1, 5, "Lemon", "Kiwi");
+// console.log(fruitsNew);
+
+// let cloths_category = ["Men's", "Women's", "Kid's"];
+// let spliced = cloths_category.toSpliced(0, 1, "Xyz","abc"); //Add items to array
+// console.log(cloths_category);
+// console.log(spliced);
+
+// let vehicle = ["Car", "Bus", "Truck", "Tractor", "ByCycle"];
+// console.log(vehicle);
+// let vehicleSkipped = vehicle.slice(1, 3);
+// console.log(vehicleSkipped);
