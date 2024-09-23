@@ -25,7 +25,19 @@ let str = "Hello from RDCoders";
 // // console.log(name.toLowerCase());
 // console.log(middleName.concat( " ",name, " ", lastname)); //Merge two strings
 
-let newStr = "    Please visit Microsoft!   ";
-console.log(newStr.length);
-let str3 = newStr.trim();
-console.log(str3.length);
+let newStr = "Please visit Microsoft! and Microsoft! and Microsoft!";
+// console.log(newStr.length);
+// let str3 = newStr.trim();
+// console.log(str3.length);
+
+// console.log(newStr.length);
+// let startTrim = newStr.trimStart();
+// let endTrim = newStr.trimEnd();
+// console.log(startTrim.length);
+// console.log(endTrim.length);
+
+// console.log(newStr.repeat(3));
+// console.log(newStr.replaceAll("Microsoft", "Indore"));
+// console.log(newStr);
+console.log(newStr.split("visit"));
+
