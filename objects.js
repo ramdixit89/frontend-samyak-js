@@ -42,7 +42,125 @@ let name = "Ram";
 
 //Array in Object
 
-const car = {
-    cars : ["BMW", "Audi", "Mercedes", "Tesla"],
-}
-console.log(car.cars);
+// const car = {
+//     cars : ["BMW", "Audi", "Mercedes", "Tesla"],
+// }
+// console.log(car.cars);
+
+//IceCream
+// let iceCream = {
+//     name : "Vanila",
+//     price : 100,
+//     color : "White",
+//     is_available : true,
+//     is_available : false,
+//     melt : function(){
+//         return "Melting..........";
+//     }
+// };
+// console.log(iceCream.melt());
+
+//Using new keyword
+// const person = new Object({
+//     name : "John",
+//     age : 30,
+//     is_married : true,
+// });  //Object Declaration
+// person.name = "John"
+// person.age = 30
+// person.is_married = true
+// console.log(person);
+
+//Using constructor
+// let person = {
+//     name : "Ram",
+//     age : 20,
+//     is_married : false,
+//     is_available : true,
+// }
+// let person2 = {
+//     name : "Shiva",
+//     age : 25,
+//     is_married : false,
+//     is_available : true,
+// }
+
+// function Person(name, age, is_married, is_available){
+//     this.name = name;
+//     this.age = age;
+//     this.is_married = is_married;
+//     this.is_available = is_available;
+// }
+// const obj1 = new Person("Ram", "23", "False", "True");  //Constructor calling
+// console.log(obj1);
+// const obj2 = new Person("Stayam", "26", "False", "True");  //Constructor calling
+// console.log(obj2);
+
+//E-commerce  example
+// const product1 = {
+//     name : "bag",
+//     price : 1000,
+//     color : ["Black", "Red", "Blue"],
+//     is_available : true,
+//     offer : "50-80% Off"
+// }
+// //For in loop in Objects
+// for(a in product1){
+//     console.log(  a," : ",product1[a]);
+// }
+// const product2 = {
+//     name : "Mobile",
+//     price : 20000,
+//     color : ["Black", "Red", "Blue"],
+//     is_available : true,
+//     offer : "50-80% Off"
+// }
+// const product3 = {
+//     name : "Laptop",
+//     price : 50000,
+//     color : ["Black", "Red", "Blue"],
+//     is_available : true,
+// }
+
+
+//Array of Objects
+// const products = [
+// {
+//     name : "bag",
+//     price : 1000,
+//     color : ["Black", "Red", "Blue"],
+//     is_available : true,
+//     offer : "50-80% Off"
+// },
+// {
+//     name : "Mobile",
+//     price : 20000,
+//     color : ["Black", "Red", "Blue"],
+//     is_available : true,
+//     offer : "50-80% Off"
+// },
+// {
+//     name : "Computer",
+//     price : 20000,
+//     color : ["Black", "Red", "Blue"],
+//     is_available : true,
+//     offer : "50-80% Off"
+// },
+// {
+//     name : "Tablet",
+//     price : 20000,
+//     color : ["Black", "Red", "Blue"],
+//     is_available : true,
+//     offer : "50-80% Off"
+// }
+//  ];
+//  console.log(products[0].color[2]);
+//  for(a in products){
+//     console.log(a, " : ",products[a].name);
+// }
+// for(let i = 0; i <= products.length; i++){
+//     console.log(products[i]);
+// }
+
+// let items = products.map(item => item.name);
+// console.log(items);
