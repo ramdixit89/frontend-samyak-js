@@ -164,3 +164,20 @@ let name = "Ram";
 
 // let items = products.map(item => item.name);
 // console.log(items);
+
+
+
+ //Conditional statement in Objects
+//  let items = {
+//     name : "abc",
+//     price : 1000,
+//     available : false,
+//     is_available : () =>{
+//         if(items.available == true){
+//             return "Available";
+//         }else{
+//             return "Not Available";
+//         }
+//     }
+// }
+// console.log(items.is_available());
