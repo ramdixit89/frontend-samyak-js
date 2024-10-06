@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            background-color: beige;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        input{
+            border: none;
+            padding: 8px;
+            margin-top: 10px;
+            padding: 10px;
+            width: 100%;
+        }
+        .buttons{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        button{
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(66, 66, 79);
+            color: white;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: rgb(100, 100, 255);
+        }
+    </style>
+</head>
+<body>
+     
+    <div class="container">
+        <h1>Calculator</h1>
+        <input type="number" id="num1" placeholder="Enter first number">
+        <br>
+        <input type="number" id="num2" placeholder="Enter second number">
+        <br>
+        <div class="buttons">
+            <button id="addBtn">Add</button>
+            <button id="subBtn">Substraction</button>
+            <button id="mulBtn">Mult</button>
+            <button id="divBtn">Div</button>
+        </div>
+        <div class="result">
+            <h3 id="result">Result : </h3>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
